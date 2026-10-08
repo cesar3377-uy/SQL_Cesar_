@@ -1,0 +1,12 @@
+opencollection: 1.0.0
+
+info:
+  name: Server MySQL2 TS - Cesar
+
+bundled: false
+
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git

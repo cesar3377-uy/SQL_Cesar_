@@ -1,0 +1,16 @@
+info:
+  name: 09 - Invalid Price
+  type: http
+  seq: 9
+
+http:
+  method: PATCH
+  url: http://localhost:3000/api/v1/products/change-price/1
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
